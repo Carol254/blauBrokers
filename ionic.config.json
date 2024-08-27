@@ -1,0 +1,7 @@
+{
+  "name": "blauBroker",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
