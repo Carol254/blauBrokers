@@ -36,8 +36,99 @@
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import '@ionic/angular/css/palettes/dark.system.css';
 
-* {
+@font-face {
     font-family: 'MarselisPro';
+    src: url('./assets/fonts/MarselisPro-Bold.eot');
+    src: local('./assets/fonts/MarselisPro-Bold'),
+        url('./assets/fonts/MarselisPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/MarselisPro-Bold.woff2') format('woff2'),
+        url('./assets/fonts/MarselisPro-Bold.woff') format('woff'),
+        url('./assets/fonts/MarselisPro-Bold.ttf') format('truetype');
+    font-weight: bold;
     font-style: normal;
-    font-weight: normal;
 }
+
+@font-face {
+    font-family: 'MarselisPro';
+    src: url('./assets/fonts/MarselisPro-Italic.eot');
+    src: local('./assets/fonts/MarselisPro-Italic'),
+        url('./assets/fonts/MarselisPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/MarselisPro-Italic.woff2') format('woff2'),
+        url('./assets/fonts/MarselisPro-Italic.woff') format('woff'),
+        url('./assets/fonts/MarselisPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MarselisPro';
+    src: url('./assets/fonts/MarselisPro-BoldItalic.eot');
+    src: local('./assets/fonts/MarselisPro-BoldItalic'),
+        url('./assets/fonts/MarselisPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/MarselisPro-BoldItalic.woff2') format('woff2'),
+        url('./assets/fonts/MarselisPro-BoldItalic.woff') format('woff'),
+        url('./assets/fonts/MarselisPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MarselisPro';
+    src: url('./assets/fonts/MarselisPro-Light.eot');
+    src: local('./assets/fonts/MarselisPro-Light'),
+        url('./assets/fonts/MarselisPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/MarselisPro-Light.woff2') format('woff2'),
+        url('./assets/fonts/MarselisPro-Light.woff') format('woff'),
+        url('./assets/fonts/MarselisPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarselisPro';
+    src: url('./assets/fonts/MarselisPro-LightItalic.eot');
+    src: local('./assets/fonts/MarselisPro-LightItalic'),
+        url('./assets/fonts/MarselisPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/MarselisPro-LightItalic.woff2') format('woff2'),
+        url('./assets/fonts/MarselisPro-LightItalic.woff') format('woff'),
+        url('./assets/fonts/MarselisPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MarselisPro';
+    src: url('./assets/fonts/MarselisPro-Black.eot');
+    src: local('./assets/fonts/MarselisPro-Black'),
+        url('./assets/fonts/MarselisPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/MarselisPro-Black.woff2') format('woff2'),
+        url('./assets/fonts/MarselisPro-Black.woff') format('woff'),
+        url('./assets/fonts/MarselisPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarselisPro';
+    src: url('./assets/fonts/MarselisPro.eot');
+    src: local('./assets/fonts/MarselisPro'),
+        url('./assets/fonts/MarselisPro.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/MarselisPro.woff2') format('woff2'),
+        url('./assets/fonts/MarselisPro.woff') format('woff'),
+        url('./assets/fonts/MarselisPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarselisPro';
+    src: url('./assets/fonts/MarselisPro-BlackItalic.eot');
+    src: local('./assets/fonts/MarselisPro-BlackItalic'),
+        url('./assets/fonts/MarselisPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/MarselisPro-BlackItalic.woff2') format('woff2'),
+        url('./assets/fonts/MarselisPro-BlackItalic.woff') format('woff'),
+        url('./assets/fonts/MarselisPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+

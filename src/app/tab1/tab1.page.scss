@@ -1,18 +1,51 @@
-._container{
-    width: 90%;
-    height:300px;
-    background: rgb(14, 94, 197);
-    border-radius: 8px;
-    margin: auto;
+._main{
+    margin: 30px;
 }
+
+ion-title{
+    font-style:normal;
+    font-weight:bold;
+    font-size:30px;
+}
+
+.bg-card{
+    height: 300px;
+    background: linear-gradient(to bottom right, #42A5F5, rgb(14, 94, 197), #0D47A1);
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.stripes{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 40px,
+      rgb(14, 94, 197)40px,
+      rgb(14, 94, 197)80px
+    );
+}
+
 ion-button{
     --background:#fff;
-    color: black;
-    --border-color:grey;
+    --color: black;
+    --border-color: lightgrey;
+    --border-width: 1.8px;
     text-transform: none;
+    font-size:24px;
+    --padding-top:10px;
+    --padding-bottom:10px;
 }
 .btns{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
+    margin: 5px 0px;
 }
