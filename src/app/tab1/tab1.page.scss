@@ -1,0 +1,18 @@
+._container{
+    width: 90%;
+    height:300px;
+    background: rgb(14, 94, 197);
+    border-radius: 8px;
+    margin: auto;
+}
+ion-button{
+    --background:#fff;
+    color: black;
+    --border-color:grey;
+    text-transform: none;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
