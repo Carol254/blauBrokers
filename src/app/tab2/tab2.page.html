@@ -17,45 +17,40 @@
     >
       <ng-template>
         <ion-content class="ion-padding">
-          <ion-searchbar placeholder="Search" (click)="modal.setCurrentBreakpoint(0.75)"></ion-searchbar>
-          <ion-list>
-            <ion-item>
-              <ion-avatar slot="start">
-                <ion-img src="https://i.pravatar.cc/300?u=b"></ion-img>
-              </ion-avatar>
-              <ion-label>
-                <h2>Connor Smith</h2>
-                <p>Sales Rep</p>
-              </ion-label>
-            </ion-item>
-            <ion-item>
-              <ion-avatar slot="start">
-                <ion-img src="https://i.pravatar.cc/300?u=a"></ion-img>
-              </ion-avatar>
-              <ion-label>
-                <h2>Daniel Smith</h2>
-                <p>Product Designer</p>
-              </ion-label>
-            </ion-item>
-            <ion-item>
-              <ion-avatar slot="start">
-                <ion-img src="https://i.pravatar.cc/300?u=d"></ion-img>
-              </ion-avatar>
-              <ion-label>
-                <h2>Greg Smith</h2>
-                <p>Director of Operations</p>
-              </ion-label>
-            </ion-item>
-            <ion-item>
-              <ion-avatar slot="start">
-                <ion-img src="https://i.pravatar.cc/300?u=e"></ion-img>
-              </ion-avatar>
-              <ion-label>
-                <h2>Zoey Smith</h2>
-                <p>CEO</p>
-              </ion-label>
-            </ion-item>
-          </ion-list>
+       
+          <ion-title>Your contracts</ion-title>
+          <h5 class="ion-text-center">Add your first contract</h5>
+
+          <p class="ion-text-center">You have not yet saved any contracts in simplr. Click on the '+' symbol to add your first contract.</p>
+
+          <ion-fab id="popover-button"horizontal="end" >
+            <ion-fab-button>
+              <ion-icon name="add"></ion-icon>
+            </ion-fab-button>
+            <ion-fab-list >
+              <ion-popover trigger="popover-button" [dismissOnSelect]="true">
+                <ng-template>
+                  <ion-content>
+                    <ion-list lines="none">
+                      <ion-item [button]="true" [detail]="true">Vertrag hinzugen</ion-item>
+                      <ion-item [button]="true" [detail]="true">Neues Angebot berechen</ion-item>
+              
+                      <ion-popover trigger="nested-trigger" [dismissOnSelect]="true" side="end">
+                        <ng-template>
+                          <ion-content>
+                            <ion-list>
+                              <ion-item [button]="true" [detail]="false">Nested option</ion-item>
+                            </ion-list>
+                          </ion-content>
+                        </ng-template>
+                      </ion-popover>
+                    </ion-list>
+                  </ion-content>
+                </ng-template>
+              </ion-popover>
+            </ion-fab-list>
+           
+          </ion-fab>
         </ion-content>
       </ng-template>
     </ion-modal>

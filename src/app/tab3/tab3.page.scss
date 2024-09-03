@@ -10,3 +10,14 @@ ion-content{
     justify-content: space-between;
     display: flex;
 }
+
+.search{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    padding: 15px;
+}
+ion-title{
+    font-style:normal;
+    font-weight:bold;
+    font-size:30px;
+}
