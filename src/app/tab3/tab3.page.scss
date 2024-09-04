@@ -21,3 +21,27 @@ ion-title{
     font-weight:bold;
     font-size:30px;
 }
+.topItems {
+    display: flex;     
+    padding: 0 16px;                
+  }
+  
+ ion-button{
+    --padding-bottom:15px !important;
+    --padding-top:15px !important;
+    --background:#04aae4;
+ }
+ ion-fab-button{
+    --background:#04aae4;
+  }
+  ion-input{
+    --background: rgb(247, 247, 247);
+    --color-focused:#000;
+  }
+
+  ion-input::focus-within{
+    --color-focused: #0000;
+  }
+  .custom-label::part(label) {
+    --color: #0000; 
+  }

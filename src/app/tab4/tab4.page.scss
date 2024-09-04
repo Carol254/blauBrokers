@@ -32,14 +32,33 @@
   font-weight:300;
   font-size:20px;
  }
- ion-button{
+
+ ion-button {
   width:100%;
-  --padding-top:10px;
-  --padding-bottom:10px;
  }
+
  ion-img{
   width: fit-content;
   border-radius: 8px;
-  border: 0.5px solid lightgray;
-
+  border: 0.5px solid lightgray; 
  }
+ .btn1{
+  --padding-top:10px;
+  --padding-bottom:10px;
+  font-size:24px;
+  text-transform: none;
+  --background: #04aae4;
+  --font-weight:normal;
+ }
+
+ .btn2{
+  --background:#fff;
+  --color: black;
+  --border-color: lightgrey;
+  --border-width: 1.8px;
+  text-transform: none;
+  font-size:24px;
+  --padding-top:10px;
+  --padding-bottom:10px;
+  --font-weight:normal;
+}

@@ -1,6 +1,8 @@
 import { Component, ViewChild, OnInit } from '@angular/core';
 import { IonHeader, IonToolbar, IonTitle, IonContent,IonFab,IonFabButton,IonIcon, IonModal, IonSearchbar, IonList, IonItem, IonAvatar, IonImg, IonLabel, IonButton,IonFabList,IonPopover } from '@ionic/angular/standalone';
 import { ExploreContainerComponent } from '../explore-container/explore-container.component';
+import { addIcons } from "ionicons";
+import { add } from "ionicons/icons";
 
 @Component({
   selector: 'app-tab2',
@@ -13,7 +15,8 @@ export class Tab2Page  {
 
   @ViewChild('modal',{static:false }) modal!:IonModal;
 
-  constructor() { }
+  constructor() {
+      addIcons({add}); }
 
   ionViewWillLeave(){
     if(this.modal && this.modal.isOpen){

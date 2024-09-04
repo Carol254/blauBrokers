@@ -1,9 +1,25 @@
 ._main{
-    --background: rgb(14, 94, 197);
+    --background: linear-gradient(to bottom right, #42A5F5, rgb(14, 94, 197), #0D47A1);
     position: relative;
     --color: #fff;
     text-align: center;
 }  
+
+.stripes{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 40px,
+    rgb(14, 94, 197)40px,
+    rgb(14, 94, 197)80px
+  );
+}
+
 ion-modal {
     --height: 100%;
     margin-bottom: 50px;
@@ -16,6 +32,12 @@ ion-modal {
     border-radius: var(--border-radius);
   }
 
+  ion-button{
+    --background:#04aae4;
+  }
+  ion-fab-button{
+    --background:#04aae4;
+  }
 
   ion-title{
     font-style:normal;

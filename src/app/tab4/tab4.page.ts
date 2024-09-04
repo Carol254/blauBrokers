@@ -17,7 +17,7 @@ export class Tab4Page {
   @ViewChild('modal',{static:false }) modal!:IonModal;
 
   constructor() { 
-    addIcons({ add, colorPalette, document, globe });
+    addIcons({});
   }
 
   ionViewWillLeave(){
